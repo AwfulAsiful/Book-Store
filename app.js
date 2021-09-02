@@ -11,6 +11,7 @@ searchBtn.addEventListener('click', function () {
     if (searchText === "") {
       errorMsg.innerText = "Search field cannot be empty.";
       searchResults.innerHTML='';
+      searchCount.innerText='';
       return;
     }
 

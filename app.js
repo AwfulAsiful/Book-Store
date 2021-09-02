@@ -19,7 +19,7 @@ searchBtn.addEventListener('click', function () {
 
 
     // ------URL-------//
-    const url = `http://openlibrary.org/search.json?q=${searchText}`
+    const url = `https://openlibrary.org/search.json?q=${searchText}`
 
     /*-------Fetching Data--------*/
     fetch(url)
